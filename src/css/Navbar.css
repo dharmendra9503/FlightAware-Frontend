@@ -1,0 +1,38 @@
+.logo {
+    margin-right: 5px;
+}
+
+.navbar-brand, .nav-link.active {
+    position: relative;
+}
+
+.nav-link.active{
+    font-size: 18px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 18px;
+}
+
+.navbar-brand::after, .nav-link.active::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #d0d0d0;
+    transform-origin: bottom;
+    transition: transform 0.3s ease-out;
+}
+
+.navbar-brand:hover::after, .nav-link.active:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom;
+}
+
+.logout{
+    margin-right: 17px;
+}

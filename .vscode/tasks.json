@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "eject",
+			"problemMatcher": [],
+			"label": "npm: eject",
+			"detail": "react-scripts eject",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
