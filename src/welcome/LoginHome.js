@@ -7,7 +7,7 @@ function LoginHome() {
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img className="d-block w-100" src={Image} alt="image" />
+                    <img className="d-block w-100" src={Image} alt="home" />
                 </div>
             </div>
         </div>
