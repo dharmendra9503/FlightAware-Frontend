@@ -36,7 +36,7 @@ function App() {
         <div className="mt-0">
           <Routes>
             <Route exact path='/' element={<LoginHome />} />
-            <Route exact path='/fprice' element={<Flights />} />
+            <Route exact path='/flight-search' element={<Flights />} />
             <Route exact path='/routes' element={<Register />} />
             <Route exact path='/dprice' element={<Register />} />
             <Route exact path='/userGuides' element={<Register />} />
